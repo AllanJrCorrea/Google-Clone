@@ -30,8 +30,8 @@
     margin-right: auto;
     margin-top: 30px;
     display: block;
-    width: 50%;
-    padding: 23px 10px 7px 20px;
+    width: 45%;
+    padding: 18px 10px 7px 20px;
     font-size: 18px;
     color: black;
     background: transparent ;
@@ -49,5 +49,39 @@
     margin-left: 50px;
     border-radius: 50px;
     cursor: pointer;
+    border: none;
+    background-color: white;
+}
+.botao1:hover, .botao2:hover {
+    background-color: rgb(202, 195, 195);
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+}
 
+.footer1 {
+    margin-top: 139px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.footer-texto div:hover,.footer1 div:hover {
+    cursor: pointer;
+    text-decoration: underline #70757a;
+}
+.footer2 div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    font-size: 14px;
+    align-items: center;
+    color: #70757a;
 }
